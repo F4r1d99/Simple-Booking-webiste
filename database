@@ -1,0 +1,35 @@
+create database roomServices;
+
+use roomServices;
+
+create table roomBooking (
+	reserve_id int(6) AUTO_INCREMENT not null,
+	email varchar(40) not null,
+	arrival_date Date not null,
+	depart_time Date not null,
+	adults int(6) not null,
+	children int(6) not null,
+	roomType varchar(20) not null,
+	primary key (reserve_id)
+);
+
+create table customer (
+	customer_id int(6) not null primary key AUTO_INCREMENT,
+	f_name varchar(20) not null,
+	L_name varchar(20) not null,
+	mobilehp varchar(20) not null,
+	email varchar(20) not null,
+	username varchar(20) not null,
+	password varchar(20) not null
+);
+
+create table admin (
+	admin_id int(6) not null AUTO_INCREMENT,
+	username varchar(20) not null,
+	password char(40) not null,
+	primary key(admin_id)
+);
+
+INSERT INTO ADMIN (username, password)
+VALUES
+('admin', 'admin');

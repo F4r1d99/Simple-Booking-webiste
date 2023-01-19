@@ -1,0 +1,53 @@
+single 
+- Parking
+- Broadband internet access in all rooms
+- In room electronic safe
+- Satellite TV
+
+double 
+- parking
+- broadband internet access in all rooms
+- in room electronic safe
+- satellite TV
+- Same day laundry and dry cleaning service
+
+triple 
+- parking
+- broadband internet access in all rooms
+- in room electronic safe
+- satellite TV
+- same day laundry and dry cleaning service
+- Daily newspaper
+
+quad
+- parking
+- broadband internet access in all rooms
+- in room electronic safe
+- satellite TV
+- same day laundry and dry cleaning service
+- daily newspaper
+- Iron & ironing board
+
+queen 
+- parking
+- broadband internet access in all rooms
+- in room electronic safe
+- satellite TV
+- same day laundry and dry cleaning service
+- daily newspaper
+- iron & ironing board
+- Coffee/tea making facilities
+- In-room dining
+
+king 
+- parking
+- broadband internet access in all rooms
+- in room electronic safe
+- satellite TV
+- same day laundry and dry cleaning service
+- daily newspaper
+- iron & ironing board
+- coffee/tea making facilities
+- in-room dining
+- Baby sitting
+- Work desk

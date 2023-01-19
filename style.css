@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(167, 163, 163, 0.7),rgba(167, 163, 163, 0.7)), url("background1.jpg");
+    background-position : center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display : flex;
+    align-items: center;
+
+}
+.logo{
+    width: 40 px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col h1{
+    flex-basis: 50%;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #354259;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    outline: #354259;
+    margin-top: 20px;
+    transition: transform 0.5s;
+}
+.bed{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.bed h5{
+    color: #CD5D7D;
+    text-shadow: 0 0 5px #CD5D7D;
+}
+.bed p{
+    color: #F7ECDE;
+    font-family:'Crimson Text', serif;
+    text-shadow: 0 0 15px #F7ECDE;
+}
+.bed1{
+    background-image: url("singleroom.jpg");
+}
+.bed2{
+    background-image: url("doublerom.png");
+}
+.bed3{
+    background-image: url("tripleroom.jpg");
+}
+.bed4{
+    background-image: url("quadrrom.jpg");
+}
+.bed5{
+    background-image: url("queenroom.jpg");
+}
+.bed6{
+    background-image: url("kingroom.jpg");
+}
+.bed:hover{
+    transform: translateY(-20px);
+}
+nav ul li a:hover{
+    color: antiquewhite;
+}
+.button:hover{
+    transform: translateY(-10px);
+    color: #000;
+}
